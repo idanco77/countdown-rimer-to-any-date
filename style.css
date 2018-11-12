@@ -1,0 +1,56 @@
+@font-face {
+    font-family: digital-7;
+    src: url(fonts/digital-7.ttf);
+}
+
+div#date-setter {
+    background-color: #33aaff;
+    width: 400px;
+    height: 80px;
+    padding: 30px 20px;
+    margin: 60px auto;
+    font-family: digital-7;
+}
+
+div#date-setter form {
+    text-align: center;
+
+}
+
+div#date-setter form #button {
+    width: 212px;
+
+}
+
+div#date-setter form label {
+    color: #fff;
+    font-size: 2em;
+
+}
+
+div#container{
+    position: absolute;
+    width: 980px;
+    top: 30vh;
+}
+
+
+@media (min-width:10px) and (max-width:813px) {
+
+    div#date-setter {   
+        width: 100%;   
+        padding: 0;
+        margin: 0;
+    }
+
+    div#date-setter form #button {
+        width: 100%;
+        margin: 0 0;
+        position: absolute;
+        top: 140px;
+        left: 0;
+    }
+
+}
+
+
